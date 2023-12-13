@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/86173/Desktop/ccGamebin/build",
+  "command": "C:\\mingw64_GCC8.1\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\86173\\Desktop\\ccGamebin\\src\\main.cpp",
+  "file": "C:/Users/86173/Desktop/ccGamebin/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
+}
+]
