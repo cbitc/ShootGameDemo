@@ -7,9 +7,14 @@ file(GLOB SRC CMAKE_CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
 add_executable(main ${SRC})
 
-target_include_directories(main PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/SDL2/include)
+include_directories(
+    ${CMAKE_CURRENT_SOURCE_DIR}/SDL2/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/ECS/include)
 
 target_link_directories(main PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/SDL2/lib/)
 
 target_link_libraries(main PUBLIC libSDL2.dll.a)
+
+target_link_libraries(main PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/SDL2/lib/libSDL2_image.dll.a)
 

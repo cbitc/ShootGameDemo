@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/86173/Desktop/ccGamebin/build"
+			"value" : "c:/Users/86173/Desktop/gameDemo/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/86173/Desktop/ccGamebin/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/86173/Desktop/gameDemo/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/86173/Desktop/ccGamebin"
+			"value" : "C:/Users/86173/Desktop/gameDemo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1295,7 +1295,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/86173/Desktop/ccGamebin/build"
+			"value" : "C:/Users/86173/Desktop/gameDemo/build"
 		},
 		{
 			"name" : "MyGame_IS_TOP_LEVEL",
@@ -1319,7 +1319,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/86173/Desktop/ccGamebin"
+			"value" : "C:/Users/86173/Desktop/gameDemo"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

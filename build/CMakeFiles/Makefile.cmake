@@ -29,7 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake"
-  "C:/Users/86173/Desktop/ccGamebin/CMakeLists.txt"
+  "C:/Users/86173/Desktop/gameDemo/CMakeLists.txt"
   "CMakeFiles/3.28.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.0/CMakeRCCompiler.cmake"

@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/src/main.cpp.obj: \
- C:\Users\86173\Desktop\ccGamebin\src\main.cpp \
+ C:\Users\86173\Desktop\gameDemo\src\main.cpp \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -119,32 +119,32 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_main.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_stdinc.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_config.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_platform.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/begin_code.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/close_code.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_main.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_stdinc.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_config.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_platform.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/begin_code.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/close_code.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/winsdkver.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/winapifamily.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_assert.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_atomic.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_audio.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_error.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_endian.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_mutex.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_thread.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_assert.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_atomic.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_audio.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_error.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_endian.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_mutex.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_thread.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/process.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/sys/types.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_rwops.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_clipboard.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_cpuinfo.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_rwops.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_clipboard.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_cpuinfo.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/intrin.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/setjmp.h \
  C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
@@ -219,36 +219,59 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clzerointrin.h \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wbnoinvdintrin.h \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pkuintrin.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_events.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_video.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_pixels.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_rect.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_surface.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_blendmode.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_keyboard.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_keycode.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_scancode.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_mouse.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_joystick.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_guid.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_gamecontroller.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_sensor.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_quit.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_gesture.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_touch.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_filesystem.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_haptic.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_hidapi.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_hints.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_loadso.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_log.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_messagebox.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_metal.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_power.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_render.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_shape.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_system.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_timer.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_version.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_locale.h \
- C:/Users/86173/Desktop/ccGamebin/SDL2/include/SDL_misc.h
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_events.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_video.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_pixels.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_rect.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_surface.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_blendmode.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_keyboard.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_keycode.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_scancode.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_mouse.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_joystick.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_guid.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_gamecontroller.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_sensor.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_quit.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_gesture.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_touch.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_filesystem.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_haptic.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_hidapi.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_hints.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_loadso.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_log.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_messagebox.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_metal.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_power.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_render.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_shape.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_system.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_timer.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_version.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_locale.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_misc.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_image.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL.h \
+ C:/Users/86173/Desktop/gameDemo/include/Common.hpp \
+ C:/Users/86173/Desktop/gameDemo/ECS/include/world.hpp \
+ C:/Users/86173/Desktop/gameDemo/ECS/include/public.hpp \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
+ C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/assert.h \
+ C:/Users/86173/Desktop/gameDemo/ECS/include/entity.hpp \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ C:/Users/86173/Desktop/gameDemo/ECS/include/dataStruct.hpp \
+ C:/Users/86173/Desktop/gameDemo/ECS/include/component.hpp \
+ C:/Users/86173/Desktop/gameDemo/ECS/include/resource.hpp \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h
