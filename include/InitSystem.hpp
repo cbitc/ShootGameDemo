@@ -2,6 +2,8 @@
 
 #include"PublicHeader.hpp"
 
+#include<ctime>
+
 struct InitSystem final
 {
     static void init(ECS::Registry registry) {
@@ -16,15 +18,14 @@ struct InitSystem final
         registry.createResource<SDL_Renderer*>(renderer);
         registry.createResource<SDL_Window*>(window);
         registry.createResource<MouseInput>();
-        initGraphsSystem(registry);
+
+        ECS::Entity player = registry.create();
+        registry.emplace<Transform>(player,Vec2<float>{300,300},
+            Vec2<float>{0.5f,0.5f},ANGTOROT(30));
+        registry.emplace<Texture>(player,renderer,TrianglePath,RGBA{0,255,255,255});
+        registry.emplace<Player>(player,100);
     }
 
 private:
-    static void initGraphsSystem(ECS::Registry registry) {
-        registry.createResource<GraphContainer>();
-        GraphContainer* graphs = registry.getResource<GraphContainer>();
-        graphs->add(GraphInfo::Type::TRIANGLE,GraphContainer::createTriangleVertexs(50));
-        graphs->add(GraphInfo::Type::ARROW,GraphContainer::createArrowVertexs(PlayerSize));
-        graphs->add(GraphInfo::Type::BULLET,GraphContainer::createBulletVertexs(BulletSize));
-    }
+    
 };

@@ -1,15 +1,15 @@
 #pragma once
 
 #include"PublicHeader.hpp"
-
+#include"Common.hpp"
 
 struct MoveSystem final
 {
     static void update(ECS::Registry registry) {
-        auto view = registry.view<Velocity,Transform>();
+        auto view = registry.view<Velocity>();
         for (ECS::Entity entity : view) {
-            auto [velocity,transform] = registry.get<Velocity,Transform>(entity);
-            transform->position += velocity->vel;
+            auto [vel,tam] = registry.get<Velocity,Transform>(entity);
+            tam->position += vel->vel;
         }
     }
 };

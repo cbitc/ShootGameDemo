@@ -4,3 +4,4 @@
 #include"../SDL2/include/SDL.h"
 #include"Component.hpp"
 #include"Resource.hpp"
+#include"../SDL2/include/SDL_image.h"

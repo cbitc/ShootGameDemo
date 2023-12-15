@@ -11,12 +11,13 @@
 #include<Resource.hpp>
 #include<queue>
 #include<PlayerControlSystem.hpp>
-#include<RenderGraphSystem.hpp>
 #include<InitSystem.hpp>
 #include<HandleInputSystem.hpp>
-
-
-
+#include<RenderTextureSystem.hpp>
+#include<Utility.hpp>
+#include<EnemyMoveSystem.hpp>
+#include<EnemySpawn.hpp>
+#include<MoveSystem.hpp>
 
 
 
@@ -39,9 +40,7 @@ int WinMain(int argc,char* argv[]) {
 
 	InitSystem::init(registry);
 
-	ECS::Entity hero = registry.create();
-	registry.emplace<Transform>(hero,Vec2<float>{100.f,100.f},Vec2<float>{1.f,1.f},0.f);
-	registry.emplace<GraphInfo>(hero,GraphInfo::Type::ARROW,RGBA{0,255,255,255});
+	
 
 
 	while (!isQuit) {
@@ -102,22 +101,24 @@ void clearSystem(ECS::Registry registry) {
 
 void logic(ECS::Registry registry) {
 	MouseInput* input = registry.getResource<MouseInput>();
-	assertm("input is null",input);
-	PlayerControlSystem::update(registry,input);
+	SDL_Renderer* renderer = *registry.getResource<SDL_Renderer*>();
+	assertm("resorce is null",input && renderer);
+	EnemySpawnSystem::update(registry,renderer);
+	EnemyMoveSystem::update(registry);
+	MoveSystem::update(registry);
+	PlayerControlSystem::update(registry,input,renderer);
 }
 
 
 void Render(ECS::Registry registry) {
 	SDL_Renderer* renderer = *registry.getResource<SDL_Renderer*>();
-	GraphContainer* graphs = registry.getResource<GraphContainer>();
 	assertm("renderer is null",renderer);
 
 	SDL_SetRenderDrawColor(renderer,0,0,0,255);
 	SDL_RenderClear(renderer);
 
-	RenderGraphSystem::update(registry,renderer,graphs);
 
-
+	RenderTextureSystem::update(registry,renderer);
 
 	SDL_RenderPresent(renderer);
 }

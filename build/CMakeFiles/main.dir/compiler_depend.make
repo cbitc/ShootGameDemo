@@ -61,12 +61,16 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/86173/Desktop/gameDemo/src/main.c
   C:/Users/86173/Desktop/gameDemo/SDL2/include/close_code.h \
   C:/Users/86173/Desktop/gameDemo/include/Common.hpp \
   C:/Users/86173/Desktop/gameDemo/include/Component.hpp \
+  C:/Users/86173/Desktop/gameDemo/include/EnemyMoveSystem.hpp \
+  C:/Users/86173/Desktop/gameDemo/include/EnemySpawn.hpp \
   C:/Users/86173/Desktop/gameDemo/include/HandleInputSystem.hpp \
   C:/Users/86173/Desktop/gameDemo/include/InitSystem.hpp \
+  C:/Users/86173/Desktop/gameDemo/include/MoveSystem.hpp \
   C:/Users/86173/Desktop/gameDemo/include/PlayerControlSystem.hpp \
   C:/Users/86173/Desktop/gameDemo/include/PublicHeader.hpp \
-  C:/Users/86173/Desktop/gameDemo/include/RenderGraphSystem.hpp \
+  C:/Users/86173/Desktop/gameDemo/include/RenderTextureSystem.hpp \
   C:/Users/86173/Desktop/gameDemo/include/Resource.hpp \
+  C:/Users/86173/Desktop/gameDemo/include/Utility.hpp \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
@@ -130,6 +134,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/86173/Desktop/gameDemo/src/main.c
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
@@ -163,6 +168,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/86173/Desktop/gameDemo/src/main.c
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
+  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
@@ -193,6 +199,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/86173/Desktop/gameDemo/src/main.c
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
+  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
   C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
@@ -376,6 +383,8 @@ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_audio.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_error.h:
 
+C:/Users/86173/Desktop/gameDemo/include/MoveSystem.hpp:
+
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_clipboard.h:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h:
@@ -390,9 +399,11 @@ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h:
 
+C:/Users/86173/Desktop/gameDemo/include/PublicHeader.hpp:
+
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_sensor.h:
 
-C:/Users/86173/Desktop/gameDemo/include/PublicHeader.hpp:
+C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx5124vnniwintrin.h:
 
@@ -436,6 +447,8 @@ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_joystick.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_keyboard.h:
 
+C:/Users/86173/Desktop/gameDemo/include/EnemyMoveSystem.hpp:
+
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_keycode.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_log.h:
@@ -449,12 +462,6 @@ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_trai
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_main.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_misc.h:
-
-C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:
-
-C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h:
-
-C:/Users/86173/Desktop/gameDemo/include/PlayerControlSystem.hpp:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_shape.h:
 
@@ -492,6 +499,8 @@ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_touch.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_video.h:
 
+C:/Users/86173/Desktop/gameDemo/include/EnemySpawn.hpp:
+
 C:/Users/86173/Desktop/gameDemo/SDL2/include/begin_code.h:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue:
@@ -504,11 +513,19 @@ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/loca
 
 C:/Users/86173/Desktop/gameDemo/include/InitSystem.hpp:
 
-C:/Users/86173/Desktop/gameDemo/include/RenderGraphSystem.hpp:
+C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h:
+
+C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h:
+
+C:/Users/86173/Desktop/gameDemo/include/PlayerControlSystem.hpp:
+
+C:/Users/86173/Desktop/gameDemo/include/RenderTextureSystem.hpp:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512fintrin.h:
 
 C:/Users/86173/Desktop/gameDemo/include/Resource.hpp:
+
+C:/Users/86173/Desktop/gameDemo/include/Utility.hpp:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h:
 
@@ -651,6 +668,10 @@ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memo
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h:
+
+C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono:
+
+C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h:
 

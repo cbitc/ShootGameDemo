@@ -255,6 +255,22 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_image.h \
  C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL.h \
  C:/Users/86173/Desktop/gameDemo/include/Common.hpp \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+ C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
  C:/Users/86173/Desktop/gameDemo/ECS/include/world.hpp \
  C:/Users/86173/Desktop/gameDemo/ECS/include/public.hpp \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert \
@@ -276,23 +292,20 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
  C:/Users/86173/Desktop/gameDemo/include/Component.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/PublicHeader.hpp \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL.h \
+ C:/Users/86173/Desktop/gameDemo/include/Resource.hpp \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/chrono \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ratio \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+ C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/time.h \
+ C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/parse_numbers.h \
+ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_image.h \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/math.h \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
- C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/math.h \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
@@ -300,13 +313,6 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
- C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
- C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/time.h \
- C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/_timeval.h \
- C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
- C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
- C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
- C:/Users/86173/Desktop/gameDemo/include/Resource.hpp \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h \
@@ -314,8 +320,10 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
  C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_queue.h \
  C:/Users/86173/Desktop/gameDemo/include/PlayerControlSystem.hpp \
- C:/Users/86173/Desktop/gameDemo/include/PublicHeader.hpp \
- C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL.h \
- C:/Users/86173/Desktop/gameDemo/include/RenderGraphSystem.hpp \
  C:/Users/86173/Desktop/gameDemo/include/InitSystem.hpp \
- C:/Users/86173/Desktop/gameDemo/include/HandleInputSystem.hpp
+ C:/Users/86173/Desktop/gameDemo/include/HandleInputSystem.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/RenderTextureSystem.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/Utility.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/EnemyMoveSystem.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/EnemySpawn.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/MoveSystem.hpp
