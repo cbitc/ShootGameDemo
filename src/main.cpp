@@ -3,71 +3,121 @@
 #include<SDL_image.h>
 #include<Common.hpp>
 #include<world.hpp>
+#include<Component.hpp>
+#include<string>
+#include<math.h>
+#include<random>
+#include<ctime>
+#include<Resource.hpp>
+#include<queue>
+#include<PlayerControlSystem.hpp>
+#include<RenderGraphSystem.hpp>
+#include<InitSystem.hpp>
+#include<HandleInputSystem.hpp>
 
 
-using namespace std;
-
-const int width = 800,height = 600;
-bool isQuit = false;
 
 
-void logic();
-void render(SDL_Renderer* renderer);
-void handleEvent(SDL_Event* event);
+
+
+
+
+
+
+void destroySystem(ECS::Registry registry);
+void clearSystem(ECS::Registry registry);
+void logic(ECS::Registry registry);
+void Render(ECS::Registry registry);
+
+
 
 
 int WinMain(int argc,char* argv[]) {
-	SDL_Init(SDL_INIT_EVERYTHING);
-	IMG_Init(IMG_INIT_PNG | IMG_INIT_JPG);
 
-	SDL_Window* window = SDL_CreateWindow("hello",SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED,width,height,SDL_WINDOW_SHOWN);
-	
-	SDL_Renderer* renderer = SDL_CreateRenderer(window,-1,0);
-	SDL_SetRenderDrawBlendMode(renderer,SDL_BLENDMODE_BLEND);
+	ECS::World world;
+	ECS::Registry registry(world);
 
-	SDL_Texture* texture = IMG_LoadTexture(renderer,"../resource/invite.png");
+	InitSystem::init(registry);
 
-	SDL_Event event;
-	CCGAME::Vec2<int> vec;
+	ECS::Entity hero = registry.create();
+	registry.emplace<Transform>(hero,Vec2<float>{100.f,100.f},Vec2<float>{1.f,1.f},0.f);
+	registry.emplace<GraphInfo>(hero,GraphInfo::Type::ARROW,RGBA{0,255,255,255});
+
 
 	while (!isQuit) {
-		handleEvent(&event);
+		HandleInputSystem::update(registry);
 
-		logic();
-		SDL_SetRenderDrawColor(renderer,0,0,0,255);
-		SDL_RenderClear(renderer);
+		logic(registry);
 
-		SDL_Rect rect{ .x = 100,.y = 100,.w = 50,.h = 50 };
-		SDL_RenderCopy(renderer,texture,nullptr,&rect);
 
-		SDL_RenderPresent(renderer);
+		Render(registry);
 
-		SDL_Delay(60);
+		clearSystem(registry);
 	}
 
 
+	destroySystem(registry);
 
-	SDL_DestroyRenderer(renderer);
-	SDL_DestroyWindow(window);
-	IMG_Quit();
-	SDL_Quit();
 	return 0;
 }
 
 
-void logic() {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void destroySystem(ECS::Registry registry) {
+	SDL_Renderer* renderer = *registry.getResource<SDL_Renderer*>();
+	SDL_Window* window = *registry.getResource<SDL_Window*>();
+	SDL_DestroyRenderer(renderer);
+	SDL_DestroyWindow(window);
+	IMG_Quit();
+	SDL_Quit();
 }
 
 
-void render(SDL_Renderer* renderer) {
-
+void clearSystem(ECS::Registry registry) {
+	MouseInput* input = registry.getResource<MouseInput>();
+	input->clear();
 }
 
-void handleEvent(SDL_Event* event) {
-	while (SDL_PollEvent(event)) {
-		if (event->type == SDL_QUIT) {
-			isQuit = true;
-		}
-	}
+
+void logic(ECS::Registry registry) {
+	MouseInput* input = registry.getResource<MouseInput>();
+	assertm("input is null",input);
+	PlayerControlSystem::update(registry,input);
+}
+
+
+void Render(ECS::Registry registry) {
+	SDL_Renderer* renderer = *registry.getResource<SDL_Renderer*>();
+	GraphContainer* graphs = registry.getResource<GraphContainer>();
+	assertm("renderer is null",renderer);
+
+	SDL_SetRenderDrawColor(renderer,0,0,0,255);
+	SDL_RenderClear(renderer);
+
+	RenderGraphSystem::update(registry,renderer,graphs);
+
+
+
+	SDL_RenderPresent(renderer);
 }
