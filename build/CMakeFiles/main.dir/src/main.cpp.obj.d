@@ -324,6 +324,8 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Users/86173/Desktop/gameDemo/include/HandleInputSystem.hpp \
  C:/Users/86173/Desktop/gameDemo/include/RenderTextureSystem.hpp \
  C:/Users/86173/Desktop/gameDemo/include/Utility.hpp \
- C:/Users/86173/Desktop/gameDemo/include/EnemyMoveSystem.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/EnemyControlSystem.hpp \
  C:/Users/86173/Desktop/gameDemo/include/EnemySpawn.hpp \
- C:/Users/86173/Desktop/gameDemo/include/MoveSystem.hpp
+ C:/Users/86173/Desktop/gameDemo/include/MoveSystem.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/CollisionSystem.hpp \
+ C:/Users/86173/Desktop/gameDemo/include/BulletControlSystem.hpp

@@ -81,3 +81,28 @@ struct Velocity final
 {
 	Vec2<float> vel;
 };
+
+
+struct CollisionBox final
+{
+	uint8_t groupIndex;
+	uint8_t mask;
+	SDL_Rect box;
+	CollisionBox(uint8_t groupIndex_,uint8_t mask_,int x,int y,int w,int h) :
+		groupIndex(groupIndex_),mask(mask_) {
+		box.x = x;box.y = y;
+		box.w = w;box.h = h;
+	}
+};
+
+
+struct BeCollision final
+{
+	std::vector<ECS::Entity> collisors;
+};
+
+
+struct BeDestroySign final
+{
+	int twice;
+};

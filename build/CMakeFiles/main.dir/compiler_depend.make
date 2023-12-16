@@ -59,9 +59,11 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/86173/Desktop/gameDemo/src/main.c
   C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_video.h \
   C:/Users/86173/Desktop/gameDemo/SDL2/include/begin_code.h \
   C:/Users/86173/Desktop/gameDemo/SDL2/include/close_code.h \
+  C:/Users/86173/Desktop/gameDemo/include/BulletControlSystem.hpp \
+  C:/Users/86173/Desktop/gameDemo/include/CollisionSystem.hpp \
   C:/Users/86173/Desktop/gameDemo/include/Common.hpp \
   C:/Users/86173/Desktop/gameDemo/include/Component.hpp \
-  C:/Users/86173/Desktop/gameDemo/include/EnemyMoveSystem.hpp \
+  C:/Users/86173/Desktop/gameDemo/include/EnemyControlSystem.hpp \
   C:/Users/86173/Desktop/gameDemo/include/EnemySpawn.hpp \
   C:/Users/86173/Desktop/gameDemo/include/HandleInputSystem.hpp \
   C:/Users/86173/Desktop/gameDemo/include/InitSystem.hpp \
@@ -331,6 +333,10 @@ C:/Users/86173/Desktop/gameDemo/ECS/include/resource.hpp:
 
 C:/Users/86173/Desktop/gameDemo/src/main.cpp:
 
+C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new:
+
+C:/Users/86173/Desktop/gameDemo/include/CollisionSystem.hpp:
+
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/gfniintrin.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_quit.h:
@@ -395,6 +401,10 @@ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/rtmintrin.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_blendmode.h:
 
+C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/process.h:
+
+C:/Users/86173/Desktop/gameDemo/include/BulletControlSystem.hpp:
+
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/wmmintrin.h:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/movdirintrin.h:
@@ -447,8 +457,6 @@ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_joystick.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_keyboard.h:
 
-C:/Users/86173/Desktop/gameDemo/include/EnemyMoveSystem.hpp:
-
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_keycode.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_log.h:
@@ -481,10 +489,6 @@ C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_rect.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_render.h:
 
-C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
-
-C:/Users/86173/Desktop/gameDemo/include/HandleInputSystem.hpp:
-
 C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/stddef.h:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_rwops.h:
@@ -503,9 +507,15 @@ C:/Users/86173/Desktop/gameDemo/include/EnemySpawn.hpp:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/begin_code.h:
 
+C:/Users/86173/Desktop/gameDemo/include/EnemyControlSystem.hpp:
+
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue:
 
 C:/Users/86173/Desktop/gameDemo/SDL2/include/close_code.h:
+
+C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
+
+C:/Users/86173/Desktop/gameDemo/include/HandleInputSystem.hpp:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/clwbintrin.h:
 
@@ -795,8 +805,6 @@ C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/math.h:
 
-C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new:
-
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric:
 
 C:/mingw64_GCC8.1/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream:
@@ -940,8 +948,6 @@ C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/intrin.h:
 C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/limits.h:
 
 C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/locale.h:
-
-C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/process.h:
 
 C:/mingw64_GCC8.1/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
 

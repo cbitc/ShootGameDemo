@@ -3,6 +3,7 @@
 #include<stdint.h>
 #include<cmath>
 #define ANGTOROT(an) (float(an*M_PI/180))
+#define ROTTOANG(ro) (float(ro*180/M_PI))
 
 const int width = 800,height = 600;
 inline constexpr float BulletSize = 20.f;

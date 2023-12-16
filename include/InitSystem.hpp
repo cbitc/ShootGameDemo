@@ -18,12 +18,16 @@ struct InitSystem final
         registry.createResource<SDL_Renderer*>(renderer);
         registry.createResource<SDL_Window*>(window);
         registry.createResource<MouseInput>();
+        CollisionGroup* group = registry.createResource<CollisionGroup>();
 
         ECS::Entity player = registry.create();
         registry.emplace<Transform>(player,Vec2<float>{300,300},
             Vec2<float>{0.5f,0.5f},ANGTOROT(30));
         registry.emplace<Texture>(player,renderer,TrianglePath,RGBA{0,255,255,255});
         registry.emplace<Player>(player,100);
+        registry.emplace<CollisionBox>(player,(uint8_t)0,(uint8_t)(1<<2),
+            0,0,55,55);
+        group->setGroup(player,0);
     }
 
 private:

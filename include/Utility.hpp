@@ -11,4 +11,17 @@ struct Utility final
         Transform* transform = registry.get<Transform>(hero);
         return Vec2<float>{transform->position};
     }
+
+
+    static Vec2<int> getWindowSize(ECS::Registry registry) {
+        return Vec2<int>{width,height};
+    }
+
+
+    static bool hasOutofRange(ECS::Registry registry,const Vec2<float> position) {
+        static constexpr float delta = 50.f;
+        const Vec2<int> windowSize = getWindowSize(registry);
+        return position.x<-delta || position.x>windowSize.x + delta ||
+               position.y<-delta || position.y> windowSize.y + delta;
+    }
 };

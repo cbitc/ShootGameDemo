@@ -60,9 +60,11 @@ CMakeFiles/main.dir/src/main.cpp.obj
  C:/Users/86173/Desktop/gameDemo/SDL2/include/SDL_video.h
  C:/Users/86173/Desktop/gameDemo/SDL2/include/begin_code.h
  C:/Users/86173/Desktop/gameDemo/SDL2/include/close_code.h
+ C:/Users/86173/Desktop/gameDemo/include/BulletControlSystem.hpp
+ C:/Users/86173/Desktop/gameDemo/include/CollisionSystem.hpp
  C:/Users/86173/Desktop/gameDemo/include/Common.hpp
  C:/Users/86173/Desktop/gameDemo/include/Component.hpp
- C:/Users/86173/Desktop/gameDemo/include/EnemyMoveSystem.hpp
+ C:/Users/86173/Desktop/gameDemo/include/EnemyControlSystem.hpp
  C:/Users/86173/Desktop/gameDemo/include/EnemySpawn.hpp
  C:/Users/86173/Desktop/gameDemo/include/HandleInputSystem.hpp
  C:/Users/86173/Desktop/gameDemo/include/InitSystem.hpp
